@@ -1,0 +1,54 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Monthly link-rot check, 1st of each month at 07:00 UTC
+    - cron: "0 7 1 * *"
+  workflow_dispatch:
+
+jobs:
+  links:
+    name: Link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config .lychee.toml --no-progress './**/*.md'
+          fail: true
+
+  data:
+    name: Validate data files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate agents.json
+        run: |
+          python3 - <<'EOF'
+          import json
+
+          required = {"name", "org", "category", "description", "url",
+                      "license", "open_source", "verified", "last_verified"}
+          categories = {"text2sql", "db-copilots", "mcp-servers",
+                        "analytics-agents", "frameworks", "benchmarks"}
+          path = "data/agents.json"
+          data = json.load(open(path))
+          assert isinstance(data, list) and data, f"{path} must be a non-empty list"
+          for i, e in enumerate(data):
+              missing = required - e.keys()
+              assert not missing, f"{path} entry {i} ({e.get('name')}) missing {missing}"
+              assert e["category"] in categories, f"{path} entry {i} bad category {e['category']}"
+              assert isinstance(e["open_source"], bool), f"{path} entry {i} open_source not bool"
+              assert isinstance(e["verified"], bool), f"{path} entry {i} verified not bool"
+              assert e["url"].startswith("https://"), f"{path} entry {i} url must be https"
+          names = [e["name"] for e in data]
+          assert len(names) == len(set(names)), f"{path} duplicate names"
+          print(f"OK: {path}: {len(data)} entries validated")
+          EOF

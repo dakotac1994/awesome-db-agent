@@ -1,0 +1,1038 @@
+[
+  {
+    "name": "Vanna AI",
+    "org": "Vanna AI",
+    "category": "text2sql",
+    "description": "Turns natural-language questions into SQL and answers by chatting with a SQL database using agentic retrieval over schema and example queries.",
+    "url": "https://github.com/vanna-ai/vanna",
+    "license": "MIT",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "NL-to-SQL generation",
+      "Retrieval over schema and example queries",
+      "Works with major SQL databases",
+      "Self-hostable Python library; hosted offering available"
+    ]
+  },
+  {
+    "name": "WrenAI",
+    "org": "Canner",
+    "category": "text2sql",
+    "description": "Open-source generative BI engine that gives AI agents a governed semantic layer (MDL) and context layer to turn business questions into SQL and dashboards across 22+ data sources.",
+    "url": "https://github.com/Canner/WrenAI",
+    "license": "Apache-2.0 (core)",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "MDL semantic layer for governed metrics",
+      "Text-to-SQL across 22+ data sources",
+      "Generative BI dashboards",
+      "Row/column-level security in commercial editions"
+    ]
+  },
+  {
+    "name": "DB-GPT",
+    "org": "eosphoros-ai",
+    "category": "text2sql",
+    "description": "Open-source agentic AI data assistant that connects to databases and other data sources, writes SQL autonomously from natural language, and generates reports and analysis.",
+    "url": "https://github.com/eosphoros-ai/DB-GPT",
+    "license": "MIT",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Autonomous SQL writing from natural language",
+      "Multi-datasource connections",
+      "Report and analysis generation",
+      "AWEL agentic workflow language and RAG support"
+    ]
+  },
+  {
+    "name": "Dataherald",
+    "org": "Dataherald",
+    "category": "text2sql",
+    "description": "Natural language-to-SQL engine built for enterprise-level question answering over relational data, exposed through an API.",
+    "url": "https://github.com/dataherald/dataherald",
+    "license": "Apache-2.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "API-first NL-to-SQL engine",
+      "Enterprise relational question answering",
+      "SQL agent module",
+      "Self-hostable"
+    ]
+  },
+  {
+    "name": "Defog SQLCoder",
+    "org": "Defog",
+    "category": "text2sql",
+    "description": "Family of open large language models fine-tuned for converting natural-language questions into SQL queries.",
+    "url": "https://github.com/defog-ai/sqlcoder",
+    "license": "Apache-2.0 (code); CC BY-SA 4.0 (weights)",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Text-to-SQL model family in multiple sizes",
+      "Self-hostable open weights",
+      "Code Apache-2.0; weights CC BY-SA 4.0",
+      "From the team behind the sql-eval harness"
+    ]
+  },
+  {
+    "name": "Chat2DB",
+    "org": "OtterMind",
+    "category": "text2sql",
+    "description": "Cross-platform, local-first database client and SQL workspace that uses a bring-your-own AI model to generate, explain, and optimize queries across 40+ databases.",
+    "url": "https://github.com/CodePhiliaX/Chat2DB",
+    "license": "Apache-2.0 with additional conditions (source-available)",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "AI SQL generation, explanation, and optimization",
+      "40+ database support",
+      "Local-first desktop client",
+      "Commercial Pro/Enterprise editions add hosted AI and team features"
+    ]
+  },
+  {
+    "name": "DataLine",
+    "org": "Rami Awar",
+    "category": "text2sql",
+    "description": "AI-driven data analysis and visualization tool that connects to Postgres, Snowflake, MySQL, SQLite, and CSV files and generates and executes SQL from natural language.",
+    "url": "https://github.com/RamiAwar/dataline",
+    "license": "GPL-3.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Natural-language SQL generation and charting",
+      "Postgres, Snowflake, MySQL, SQLite, and CSV sources",
+      "Local, on-device data storage",
+      "Open-source"
+    ]
+  },
+  {
+    "name": "AI2sql",
+    "org": "AI2sql (Cross Regions Technology)",
+    "category": "text2sql",
+    "description": "Transforms plain-English requests into SQL queries, optionally mapped to a database schema to construct statements.",
+    "url": "https://ai2sql.io/ai-to-sql-converter",
+    "license": "SaaS subscription",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "English-to-SQL converter",
+      "Schema-aware generation",
+      "Web-based SaaS",
+      "Free trial offered"
+    ]
+  },
+  {
+    "name": "SQL Chat",
+    "org": "SQL Chat",
+    "category": "text2sql",
+    "description": "Chat-based SQL client that uses natural language to query and operate databases including MySQL, PostgreSQL, MSSQL, TiDB Cloud, and OceanBase.",
+    "url": "https://github.com/sqlchat/sqlchat",
+    "license": "MIT",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Chat UI for SQL",
+      "MySQL, PostgreSQL, MSSQL, TiDB Cloud, OceanBase",
+      "Self-hosted or hosted options",
+      "Open-source"
+    ]
+  },
+  {
+    "name": "LangChain SQL Agent",
+    "org": "LangChain",
+    "category": "frameworks",
+    "description": "Documented LangGraph pattern for building a custom agent that answers questions about a SQL database using database tools and query-checking steps.",
+    "url": "https://docs.langchain.com/oss/python/langgraph/sql-agent",
+    "license": "MIT",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Official SQL-agent tutorial on LangGraph",
+      "Database tools with query-checking step",
+      "Python",
+      "Pattern/framework capability, not a standalone product"
+    ]
+  },
+  {
+    "name": "LlamaIndex NLSQL",
+    "org": "LlamaIndex",
+    "category": "frameworks",
+    "description": "NLSQLTableQueryEngine constructs natural-language queries synthesized into SQL over a SQLDatabase wrapper, with response synthesis.",
+    "url": "https://github.com/run-llama/llama_index",
+    "license": "MIT",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "NLSQLTableQueryEngine",
+      "SQLDatabase wrapper",
+      "Text-to-SQL with answer synthesis",
+      "Python"
+    ]
+  },
+  {
+    "name": "Haystack",
+    "org": "deepset",
+    "category": "frameworks",
+    "description": "Open-source AI orchestration framework whose official cookbook shows building a pipeline that generates SQL and queries a SQL database with a custom component.",
+    "url": "https://github.com/deepset-ai/haystack",
+    "license": "Apache-2.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Pipeline orchestration framework",
+      "Official text-to-SQL cookbook",
+      "Custom SQLQuery component pattern",
+      "Python"
+    ]
+  },
+  {
+    "name": "Cube",
+    "org": "Cube",
+    "category": "frameworks",
+    "description": "Open-source semantic layer where metrics, dimensions, joins, and access rules are defined once and exposed through SQL, REST, and GraphQL APIs to BI tools, applications, and AI agents.",
+    "url": "https://github.com/cube-js/cube",
+    "license": "Apache-2.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Semantic layer: metrics, dimensions, joins defined once",
+      "SQL, REST, and GraphQL APIs",
+      "Access rules and governance",
+      "Commercial agentic analytics platform built on Cube Core"
+    ]
+  },
+  {
+    "name": "dbt Semantic Layer",
+    "org": "dbt Labs",
+    "category": "frameworks",
+    "description": "Powered by MetricFlow, the dbt Semantic Layer lets data teams define metrics in the modeling layer and query them consistently in downstream tools; AI tools can connect through the dbt MCP server.",
+    "url": "https://docs.getdbt.com/docs/use-dbt-semantic-layer/sl-architecture",
+    "license": "Apache-2.0 (MetricFlow); proprietary (hosted layer)",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "MetricFlow metric definitions",
+      "Consistent metrics across tools and agents",
+      "dbt MCP server for AI tools",
+      "Hosted layer requires a dbt plan"
+    ]
+  },
+  {
+    "name": "Malloy",
+    "org": "Malloy",
+    "category": "frameworks",
+    "description": "Open-source semantic modeling and query language built on top of SQL that describes data relationships and transformations and executes through an existing SQL engine; models can be served via REST and MCP APIs.",
+    "url": "https://github.com/malloydata/malloy",
+    "license": "MIT",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Semantic modeling and query language",
+      "Compiles to SQL on existing engines",
+      "Publisher serves models via REST and MCP APIs",
+      "Open-source"
+    ]
+  },
+  {
+    "name": "Wren MDL",
+    "org": "Canner",
+    "category": "frameworks",
+    "description": "Wren AI's Modeling Definition Language: a versionable semantic contract describing models, relationships, calculated fields, and views, forming the governed context layer for WrenAI's text-to-SQL.",
+    "url": "https://docs.getwren.ai/oss/concepts/what_is_context",
+    "license": "Apache-2.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Semantic models as versionable files",
+      "Relationships, calculated fields, views",
+      "Part of the Wren AI stack",
+      "Apache-2.0 core"
+    ]
+  },
+  {
+    "name": "Supabase AI Assistant",
+    "org": "Supabase",
+    "category": "db-copilots",
+    "description": "Supabase's dashboard AI Assistant helps with schema design, SQL, RLS policies, functions, and error debugging, complemented by Supabase's MCP server for AI agents.",
+    "url": "https://supabase.com/docs/guides/ai-tools",
+    "license": "SaaS subscription",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Dashboard AI for schema, SQL, and RLS",
+      "SQL editor assistance",
+      "Error debugging help",
+      "Companion MCP server for agents"
+    ]
+  },
+  {
+    "name": "DBeaver AI Assistant",
+    "org": "DBeaver Corp",
+    "category": "db-copilots",
+    "description": "Generates and explains SQL from natural language and can act on databases through built-in AI tools and connected MCP servers; fuller AI Chat and tooling ship in PRO editions.",
+    "url": "https://dbeaver.com/docs/dbeaver/AI-Tools-and-MCP/",
+    "license": "Apache-2.0 (Community)",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Natural-language SQL generation and explanation",
+      "Built-in AI tools plus MCP client support",
+      "Community and PRO editions",
+      "Bring your own LLM provider"
+    ]
+  },
+  {
+    "name": "Snowflake Cortex Analyst",
+    "org": "Snowflake",
+    "category": "db-copilots",
+    "description": "Generates SQL over structured data from natural language using a semantic view, and is available as a tool inside Cortex Agents.",
+    "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents",
+    "license": "SaaS subscription",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Semantic-view-grounded SQL generation",
+      "Available as a tool in Cortex Agents",
+      "Runs inside Snowflake",
+      "Governed by Snowflake access controls"
+    ]
+  },
+  {
+    "name": "Databricks Genie",
+    "org": "Databricks",
+    "category": "db-copilots",
+    "description": "AI experience for asking data questions in natural language, with answers grounded in organization data governed through Unity Catalog (Genie Agents, formerly Genie Spaces).",
+    "url": "https://docs.databricks.com/gcp/en/genie",
+    "license": "SaaS subscription",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Natural-language data Q&A",
+      "Unity Catalog governance",
+      "Genie Agents (formerly Genie Spaces)",
+      "Native to Databricks workspaces"
+    ]
+  },
+  {
+    "name": "Gemini in BigQuery",
+    "org": "Google Cloud",
+    "category": "db-copilots",
+    "description": "AI assistance in BigQuery Studio to explore data, chat with data via conversational analytics and data agents, and generate SQL and Python.",
+    "url": "https://docs.cloud.google.com/bigquery/docs/gemini-overview",
+    "license": "SaaS subscription",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Conversational analytics and data agents",
+      "SQL and Python generation",
+      "BigQuery Studio integration",
+      "Several sub-features labeled Preview in official docs"
+    ]
+  },
+  {
+    "name": "Microsoft Copilot in Azure SQL Database",
+    "org": "Microsoft",
+    "category": "db-copilots",
+    "description": "Conversational interface in the Azure portal to ask database questions and generate T-SQL using database context, DMVs, Query Store, and documentation.",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-sql/copilot/copilot-azure-sql-overview?view=azuresql",
+    "license": "SaaS subscription",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Azure portal chat interface",
+      "T-SQL generation with database context",
+      "Uses DMVs and Query Store",
+      "Azure SQL Database only; Azure Data Studio retired Feb 28, 2026"
+    ]
+  },
+  {
+    "name": "Amazon Q generative SQL",
+    "org": "AWS",
+    "category": "db-copilots",
+    "description": "Amazon Q generative SQL in the Amazon Redshift Query Editor recommends SQL from natural-language intent, analyzing query patterns and schema metadata.",
+    "url": "https://aws.amazon.com/q/developer/features/",
+    "license": "SaaS subscription",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Redshift Query Editor integration",
+      "Natural-language to SQL recommendations",
+      "Schema-metadata aware",
+      "AWS-managed service"
+    ]
+  },
+  {
+    "name": "MongoDB Compass Intelligent Assistant",
+    "org": "MongoDB",
+    "category": "db-copilots",
+    "description": "Compass's intelligent assistant answers natural-language questions, helps debug errors, and uses read-only, user-approved tools to query the connected MongoDB deployment.",
+    "url": "https://www.mongodb.com/docs/compass/query-with-natural-language/compass-ai-assistant/",
+    "license": "SaaS subscription",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Natural-language querying in Compass",
+      "Error debugging help",
+      "Read-only tools requiring explicit user approval",
+      "Works with connected deployments and Atlas"
+    ]
+  },
+  {
+    "name": "Oracle Select AI",
+    "org": "Oracle",
+    "category": "db-copilots",
+    "description": "Lets users interact with Oracle AI Database using natural language to generate, run, and explain SQL via DBMS_CLOUD_AI, with an agent framework via DBMS_CLOUD_AI_AGENT.",
+    "url": "https://docs.oracle.com/en/database/oracle/oracle-database/26/nfcoa/select_ai.html",
+    "license": "SaaS subscription",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Natural-language to SQL inside the database",
+      "DBMS_CLOUD_AI integration",
+      "Agent framework via DBMS_CLOUD_AI_AGENT",
+      "Generate, run, and explain SQL"
+    ]
+  },
+  {
+    "name": "ClickHouse AI-powered SQL generation",
+    "org": "ClickHouse",
+    "category": "db-copilots",
+    "description": "From ClickHouse 25.7, ClickHouse Client and clickhouse-local convert natural-language descriptions into SQL using built-in schema-discovery tools.",
+    "url": "https://clickhouse.com/docs/guides/use-cases/ai-ml/ai-powered-sql-generation",
+    "license": "Apache-2.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "CLI natural-language to SQL",
+      "Built-in schema-discovery tools",
+      "Requires an Anthropic or OpenAI API key",
+      "One-shot generation, no conversation history"
+    ]
+  },
+  {
+    "name": "pgAdmin AI Assistant",
+    "org": "pgAdmin project",
+    "category": "db-copilots",
+    "description": "pgAdmin 4's Query Tool includes an AI Assistant tab that generates SQL from natural language by analyzing the database schema, after an AI provider is configured.",
+    "url": "https://www.pgadmin.org/docs/pgadmin4/latest/query_tool.html",
+    "license": "PostgreSQL/Artistic license",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "AI Assistant tab in the Query Tool",
+      "Schema-aware SQL generation",
+      "Requires a user-configured LLM provider",
+      "Open-source"
+    ]
+  },
+  {
+    "name": "MCP Reference Servers (archived)",
+    "org": "modelcontextprotocol",
+    "category": "mcp-servers",
+    "description": "The original MCP reference servers, including the Postgres and SQLite reference implementations, are archived and no longer maintained; current servers live in modelcontextprotocol/servers.",
+    "url": "https://github.com/modelcontextprotocol/servers-archived",
+    "license": "MIT",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Historical reference implementations",
+      "Postgres and SQLite reference servers",
+      "Archived upstream with security caveats",
+      "Start here historically, not for production"
+    ]
+  },
+  {
+    "name": "Postgres MCP Pro",
+    "org": "crystaldba",
+    "category": "mcp-servers",
+    "description": "Community MCP server giving agents configurable read/write access to Postgres plus performance-analysis tooling.",
+    "url": "https://github.com/crystaldba/postgres-mcp",
+    "license": "MIT",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Configurable read/write access",
+      "Performance-analysis tooling",
+      "Practical successor to the archived reference server",
+      "Community-maintained"
+    ]
+  },
+  {
+    "name": "mcp-server-mysql (benborla)",
+    "org": "benborla",
+    "category": "mcp-servers",
+    "description": "Community Model Context Protocol server providing read-only access to MySQL databases: schema inspection and read-only queries for LLMs.",
+    "url": "https://github.com/benborla/mcp-server-mysql",
+    "license": "MIT",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Read-only queries by design",
+      "Schema inspection",
+      "Community-maintained",
+      "MySQL and MariaDB-family databases"
+    ]
+  },
+  {
+    "name": "MongoDB MCP Server",
+    "org": "MongoDB (mongodb-js)",
+    "category": "mcp-servers",
+    "description": "MongoDB's official Model Context Protocol server to connect AI agents to MongoDB databases and MongoDB Atlas clusters.",
+    "url": "https://github.com/mongodb-js/mongodb-mcp-server",
+    "license": "Apache-2.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Official MongoDB project",
+      "Atlas and self-managed clusters",
+      "Query and management tools",
+      "Apache-2.0"
+    ]
+  },
+  {
+    "name": "ClickHouse MCP Server",
+    "org": "ClickHouse",
+    "category": "mcp-servers",
+    "description": "ClickHouse's official MCP server for querying ClickHouse from MCP-compatible agents.",
+    "url": "https://github.com/ClickHouse/mcp-clickhouse",
+    "license": "Apache-2.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Official ClickHouse project",
+      "Query execution tools",
+      "Apache-2.0",
+      "Works with ClickHouse Cloud and self-managed"
+    ]
+  },
+  {
+    "name": "MotherDuck MCP Server",
+    "org": "MotherDuck",
+    "category": "mcp-servers",
+    "description": "MotherDuck's official local MCP server for DuckDB and MotherDuck.",
+    "url": "https://github.com/motherduckdb/mcp-server-motherduck",
+    "license": "MIT",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Local DuckDB plus MotherDuck cloud",
+      "Official MotherDuck project",
+      "Local MCP server",
+      "MIT"
+    ]
+  },
+  {
+    "name": "Redis MCP Server",
+    "org": "Redis",
+    "category": "mcp-servers",
+    "description": "Redis's official MCP Server: a natural-language interface designed for agentic applications to manage and search data in Redis efficiently.",
+    "url": "https://github.com/redis/mcp-redis",
+    "license": "MIT",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Official Redis project",
+      "Data management tools",
+      "Search support",
+      "MIT"
+    ]
+  },
+  {
+    "name": "MSSQL MCP servers (community)",
+    "org": "Community",
+    "category": "mcp-servers",
+    "description": "No official Microsoft SQL Server MCP server was verified on official Microsoft sources as of October 2026; community servers (for example RichardHan/mssql_mcp_server) exist and are unaudited.",
+    "url": "https://github.com/RichardHan/mssql_mcp_server",
+    "license": "Unknown",
+    "open_source": false,
+    "verified": false,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Community implementations only",
+      "No official Microsoft server verified",
+      "Listed for discoverability; verify licenses before use"
+    ]
+  },
+  {
+    "name": "MCP Toolbox for Databases",
+    "org": "Google (googleapis)",
+    "category": "mcp-servers",
+    "description": "Google's open-source MCP server for databases, providing prebuilt and custom tools across many database engines; the repo now points to googleapis/mcp-toolbox.",
+    "url": "https://github.com/googleapis/genai-toolbox",
+    "license": "Apache-2.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Multi-database prebuilt tools",
+      "Official Google project",
+      "Custom tool definitions",
+      "Apache-2.0"
+    ]
+  },
+  {
+    "name": "Supabase MCP Server",
+    "org": "Supabase (supabase-community)",
+    "category": "mcp-servers",
+    "description": "Supabase's official MCP server connecting AI assistants to Supabase projects and Postgres databases.",
+    "url": "https://github.com/supabase-community/supabase-mcp",
+    "license": "Apache-2.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Official Supabase project",
+      "Project and database tools",
+      "Apache-2.0",
+      "Remote and local deployment options"
+    ]
+  },
+  {
+    "name": "Neon MCP Server",
+    "org": "Neon (neondatabase)",
+    "category": "mcp-servers",
+    "description": "Neon's official MCP server for interacting with the Neon Management API and databases using natural language.",
+    "url": "https://github.com/neondatabase/mcp-server-neon",
+    "license": "MIT",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Official Neon project",
+      "Management API access",
+      "Run SQL and manage projects",
+      "Read-only and project-scoped modes"
+    ]
+  },
+  {
+    "name": "AWS Labs MCP Servers for Databases",
+    "org": "AWS Labs (awslabs)",
+    "category": "mcp-servers",
+    "description": "AWS Labs' official open-source MCP monorepo, including database servers for DynamoDB, Aurora PostgreSQL/MySQL/DSQL, DocumentDB, Neptune, and Redshift.",
+    "url": "https://github.com/awslabs/mcp",
+    "license": "Apache-2.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Official AWS Labs monorepo",
+      "Many database-specific servers",
+      "Apache-2.0",
+      "Per-server documentation in repo"
+    ]
+  },
+  {
+    "name": "Snowflake MCP Server (Snowflake-Labs)",
+    "org": "Snowflake-Labs",
+    "category": "mcp-servers",
+    "description": "Snowflake-Labs' MCP server for Cortex AI, object management, and SQL orchestration \u2014 deprecated upstream in favor of Snowflake's official managed MCP server.",
+    "url": "https://github.com/Snowflake-Labs/mcp",
+    "license": "Apache-2.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Cortex AI access",
+      "Object management and SQL orchestration",
+      "Deprecated upstream",
+      "Migrate to Snowflake's official managed MCP server"
+    ]
+  },
+  {
+    "name": "Qdrant MCP Server",
+    "org": "Qdrant",
+    "category": "mcp-servers",
+    "description": "Qdrant's official Model Context Protocol server implementation for the Qdrant vector database.",
+    "url": "https://github.com/qdrant/mcp-server-qdrant",
+    "license": "Apache-2.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Official Qdrant project",
+      "Vector search tools",
+      "Apache-2.0",
+      "Self-hosted and cloud"
+    ]
+  },
+  {
+    "name": "PlanetScale MCP Server",
+    "org": "PlanetScale",
+    "category": "mcp-servers",
+    "description": "PlanetScale's hosted MCP server exposing organizations, databases, branches, schema, and Insights data to MCP-compatible AI tools, with optional read/write query execution.",
+    "url": "https://planetscale.com/blog/introducing-planetscale-mcp-server",
+    "license": "SaaS subscription",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Hosted MCP server",
+      "Schema and Insights data access",
+      "Optional read/write query execution",
+      "Official PlanetScale launch announcement"
+    ]
+  },
+  {
+    "name": "Turso MCP Server",
+    "org": "Turso",
+    "category": "mcp-servers",
+    "description": "Turso's hosted MCP server connecting AI coding agents to Turso Cloud to manage organizations, databases, and groups and run SQL, with OAuth login.",
+    "url": "https://github.com/tursodatabase/turso-mcp",
+    "license": "MIT",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Hosted MCP server",
+      "SQL execution",
+      "Organization and database management",
+      "OAuth login with scoped consent"
+    ]
+  },
+  {
+    "name": "Hex Magic (Hex AI agents)",
+    "org": "Hex Technologies",
+    "category": "analytics-agents",
+    "description": "Hex's Magic AI features generate SQL, edit Python, and build charts and analyses from prompts using warehouse schemas and project context.",
+    "url": "https://hex.tech/blog/why-hex-doesnt-require-an-ai-add-on/",
+    "license": "SaaS subscription",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "SQL and Python generation",
+      "Notebook-based analysis workflow",
+      "Warehouse-schema aware",
+      "Charts and analyses from prompts"
+    ]
+  },
+  {
+    "name": "ThoughtSpot Sage",
+    "org": "ThoughtSpot",
+    "category": "analytics-agents",
+    "description": "AI-powered search experience that lets users get insights from data through natural-language search using foundation models within ThoughtSpot's search technology; ThoughtSpot now also promotes the Spotter conversational experience.",
+    "url": "https://www.thoughtspot.com/press-releases/thoughtspot-experiences-historic-year-of-growth-as-customers-around-the-world",
+    "license": "SaaS subscription",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Natural-language search analytics",
+      "Governed data models",
+      "Business-user focused",
+      "Naming evolving toward Spotter"
+    ]
+  },
+  {
+    "name": "Mode AI Assist",
+    "org": "Mode (ThoughtSpot)",
+    "category": "analytics-agents",
+    "description": "Generates SQL in Mode's SQL editor from natural-language comments embedded in queries, for any warehouse the user can query; enabled per account on request.",
+    "url": "https://mode.com/help/articles/ai-assist",
+    "license": "SaaS subscription",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "SQL editor copilot",
+      "Comment-to-SQL generation",
+      "Works with any connected warehouse",
+      "Analyst-focused, enabled per account"
+    ]
+  },
+  {
+    "name": "Metabase Metabot",
+    "org": "Metabase",
+    "category": "analytics-agents",
+    "description": "Metabase's AI that gives answers, helps write queries, and can be extended via an AI agent API to query data.",
+    "url": "https://github.com/metabase/metabase",
+    "license": "AGPL-3.0 (OSS edition)",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Natural-language answers",
+      "Query-writing help",
+      "AI agent API",
+      "Open-source edition; commercial editions separately licensed"
+    ]
+  },
+  {
+    "name": "Seek AI",
+    "org": "Seek AI",
+    "category": "analytics-agents",
+    "description": "Natural-language interface that queries structured data sources (including SQL Server, Snowflake, and other warehouses) and returns answers in plain English.",
+    "url": "https://www.seek.ai/blog/seek-ai-supports-microsoft-sql-server-for-natural-language-querying-of-data-2",
+    "license": "SaaS subscription",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Natural-language querying",
+      "Warehouse connectors",
+      "Plain-English answers",
+      "Enterprise positioning"
+    ]
+  },
+  {
+    "name": "Julius AI",
+    "org": "Julius AI",
+    "category": "analytics-agents",
+    "description": "AI data-analysis tool that turns analysis into conversations: users upload files or connect databases and get visualizations without coding.",
+    "url": "https://julius.ai/",
+    "license": "SaaS subscription",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Conversational analysis",
+      "Database connections and file uploads",
+      "Visualizations",
+      "No-code positioning"
+    ]
+  },
+  {
+    "name": "Dust",
+    "org": "Dust",
+    "category": "analytics-agents",
+    "description": "Agent platform whose Discover Knowledge capability explores data-warehouse tables and runs SQL analysis on Snowflake and BigQuery to answer quantitative questions.",
+    "url": "https://docs.dust.tt/docs/user-documentation/agents/discover-knowledge",
+    "license": "SaaS subscription",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Warehouse SQL analysis",
+      "Snowflake and BigQuery connections",
+      "General agent platform",
+      "Discover Knowledge feature"
+    ]
+  },
+  {
+    "name": "Spider",
+    "org": "Yale (taoyds)",
+    "category": "benchmarks",
+    "description": "Large human-labeled dataset for complex and cross-domain semantic parsing and the text-to-SQL task over relational databases.",
+    "url": "https://github.com/taoyds/spider",
+    "license": "Apache-2.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "10K questions over 200 databases",
+      "Cross-domain",
+      "The classic text-to-SQL benchmark",
+      "Largely saturated by modern systems"
+    ]
+  },
+  {
+    "name": "Spider 2.0",
+    "org": "XLANG Lab (xlang-ai)",
+    "category": "benchmarks",
+    "description": "Evaluates language models on real-world enterprise text-to-SQL workflows, with Snowflake, Lite, and DBT settings.",
+    "url": "https://github.com/xlang-ai/Spider2",
+    "license": "MIT",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Enterprise-grade workflows",
+      "Databases with thousands of columns",
+      "Multi-step tasks",
+      "ICLR 2025 oral presentation"
+    ]
+  },
+  {
+    "name": "BIRD",
+    "org": "BIRD-bench / Alibaba DAMO-ConvAI",
+    "category": "benchmarks",
+    "description": "Large-scale cross-domain text-to-SQL benchmark emphasizing database values, external knowledge, and query efficiency.",
+    "url": "https://bird-bench.github.io/",
+    "license": "Research dataset/paper",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "12K+ question-SQL pairs",
+      "Dirty real-world values",
+      "Efficiency measured alongside accuracy",
+      "Public leaderboard"
+    ]
+  },
+  {
+    "name": "DAIL-SQL",
+    "org": "BeachWang",
+    "category": "benchmarks",
+    "description": "Approach for optimizing LLM utilization on text-to-SQL through few-shot example selection and prompt organization; a method, not a dataset.",
+    "url": "https://github.com/BeachWang/DAIL-SQL",
+    "license": "Apache-2.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Few-shot example selection",
+      "Prompt organization",
+      "Method, not a benchmark dataset",
+      "arXiv 2308.15363"
+    ]
+  },
+  {
+    "name": "CHESS",
+    "org": "ShayanTalaei",
+    "category": "benchmarks",
+    "description": "Contextual Harnessing for Efficient SQL Synthesis: a multi-agent framework (information retriever, schema selector, candidate generator, unit tester) for text-to-SQL.",
+    "url": "https://github.com/ShayanTalaei/CHESS",
+    "license": "Apache-2.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Multi-agent pipeline",
+      "Schema selection for wide schemas",
+      "Candidate generation with unit tests",
+      "Method/framework, not a dataset"
+    ]
+  },
+  {
+    "name": "MAC-SQL",
+    "org": "wbbeyourself",
+    "category": "benchmarks",
+    "description": "Multi-agent collaborative framework for text-to-SQL with selector, decomposer, and refiner agents.",
+    "url": "https://github.com/wbbeyourself/MAC-SQL",
+    "license": "Unknown (no license file verified)",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Multi-agent decomposition",
+      "COLING 2025 paper (arXiv 2312.11242)",
+      "No LICENSE file detected in repo",
+      "Method, not a benchmark dataset"
+    ]
+  },
+  {
+    "name": "DIN-SQL",
+    "org": "Mohammadreza Pourreza",
+    "category": "benchmarks",
+    "description": "Decomposed in-context learning of text-to-SQL with self-correction: schema linking, classification, generation, and self-correction modules.",
+    "url": "https://github.com/MohammadrezaPourreza/Few-shot-NL2SQL-with-prompting",
+    "license": "MIT",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Modular decomposed pipeline",
+      "Self-correction step",
+      "Few-shot prompting",
+      "arXiv 2304.11015"
+    ]
+  },
+  {
+    "name": "Defog sql-eval",
+    "org": "Defog (defog-ai)",
+    "category": "benchmarks",
+    "description": "The open evaluation harness Defog uses for evaluating generated SQL, built for reproducible comparisons.",
+    "url": "https://github.com/defog-ai/sql-eval",
+    "license": "Apache-2.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Evaluation harness, not a dataset",
+      "Postgres-focused",
+      "Reproducible runs",
+      "Open-source"
+    ]
+  },
+  {
+    "name": "KaggleDBQA",
+    "org": "Microsoft Research authors",
+    "category": "benchmarks",
+    "description": "Challenging cross-domain evaluation dataset of real web (Kaggle) databases, with domain-specific data types, original formatting, and unrestricted questions.",
+    "url": "https://github.com/chia-hsuan-lee/kaggledbqa",
+    "license": "Other (NOASSERTION)",
+    "open_source": false,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Real Kaggle databases",
+      "Domain-specific types and original formatting",
+      "ACL 2021",
+      "Repo license metadata is non-OSI (NOASSERTION)"
+    ]
+  },
+  {
+    "name": "CoSQL",
+    "org": "Yale LILY",
+    "category": "benchmarks",
+    "description": "Corpus for building cross-domain conversational text-to-SQL systems.",
+    "url": "https://yale-lily.github.io/cosql",
+    "license": "CC BY-SA 4.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Multi-turn conversational dialogues",
+      "Cross-domain",
+      "Yale LILY",
+      "Dataset under CC BY-SA 4.0"
+    ]
+  },
+  {
+    "name": "SParC",
+    "org": "Yale & Salesforce",
+    "category": "benchmarks",
+    "description": "Semantic parsing and text-to-SQL in context: context-dependent, multi-turn questions built upon the Spider dataset.",
+    "url": "https://yale-lily.github.io/sparc",
+    "license": "CC BY-SA 4.0",
+    "open_source": true,
+    "verified": true,
+    "last_verified": "2026-10-03",
+    "features": [
+      "Context-dependent questions",
+      "Built on Spider",
+      "Yale and Salesforce",
+      "Dataset under CC BY-SA 4.0"
+    ]
+  }
+]
